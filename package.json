@@ -1,0 +1,13 @@
+{
+  "name": "esa-template",
+  "version": "0.0.1-beta.7",
+  "description": "esa-cli-template",
+  "keywords": [],
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliyun/alibabacloud-esa-er-templates"
+  },
+  "author": "Shengyuan Ma",
+  "license": "MIT"
+}
