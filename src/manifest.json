@@ -82,6 +82,13 @@
     "Title_EN": "React SSR Demo",
     "Desc_ZH": "一个简单的React SSR Demo，帮助您快速了解如实现React SSR",
     "Desc_EN": "A simple React SSR demo to help you quickly understand how to implement React SSR",
-    "URL": "https://github.com/aliyun/alibabacloud-esa-er-templates/CacheApi.js"
+    "URL": "https://github.com/aliyun/alibabacloud-esa-er-templates/simple_ssr"
+  },
+  {
+    "Title_ZH": "DeepSeek模型调用",
+    "Title_EN": "DeepSeek model invocation",
+    "Desc_ZH": "通过百炼SDK调用DeepSeek大模型的接口，流式返回结果。",
+    "Desc_EN": "Invoke the DeepSeek model API by using the Baillie SDK, and return results in streaming mode.",
+    "URL": "https://github.com/aliyun/alibabacloud-esa-er-templates/ai_templates"
   }
 ]
