@@ -1,0 +1,11 @@
+{
+  "name": "stateless-mcp-example",
+  "version": "1.0.0",
+  "description": "A simple example of a stateless Model Context Protocol (MCP) application",
+  "main": "index.js",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.3",
+    "esa-sdk": "^1.0.2"
+  },
+  "repository": "https://github.com/aliyun/alibabacloud-esa-er-templates"
+}
