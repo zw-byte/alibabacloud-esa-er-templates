@@ -90,5 +90,27 @@
     "Desc_ZH": "通过百炼SDK调用DeepSeek大模型的接口，流式返回结果。",
     "Desc_EN": "Invoke the DeepSeek model API by using the Baillie SDK, and return results in streaming mode.",
     "URL": "https://github.com/aliyun/alibabacloud-esa-er-templates/ai_templates"
+  },
+  {
+    "Title_ZH": "MCP 模版",
+    "Title_EN": "MCP Demo",
+    "Desc_ZH": "提供有关MCP示例代码。",
+    "Desc_EN": "Provides example code for the Model Context Protocol (MCP).",
+    "children": [
+      {
+        "Title_ZH": "无状态的MCP模版",
+        "Title_EN": "Stateless MCP Template",
+        "Desc_ZH": "提供一个简单的无状态的MCP应用示例。",
+        "Desc_EN": "Provides a simple example of a stateless Model Context Protocol (MCP) application.",
+        "URL": "https://github.com/aliyun/alibabacloud-esa-er-templates/stateless-mcp-example"
+      },
+      {
+        "Title_ZH": "无状态的高德地图MCP模版",
+        "Title_EN": "Stateless AMap MCP Template",
+        "Desc_ZH": "提供一个简单的无状态的高德地图MCP应用示例。",
+        "Desc_EN": "Provides a simple example of a stateless AMap Model Context Protocol (MCP) application.",
+        "URL": "https://github.com/aliyun/alibabacloud-esa-er-templates/stateless-amap-mcp-example"
+      }
+    ]
   }
 ]
