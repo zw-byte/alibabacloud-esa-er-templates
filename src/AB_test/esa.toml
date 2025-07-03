@@ -1,4 +1,4 @@
-name = "AB Test"
+name = "A/B Test"
 description = 'Route traffic to test services of different versions.'
 entry = "src/index.js"
 codeVersions = [ ]
