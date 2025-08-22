@@ -1,0 +1,7 @@
+{
+  "name": "vite-vue-template",
+  "assets": {
+    "directory": "/dist",
+    "notFoundStrategy": "singlePageApplication"
+  }
+}
