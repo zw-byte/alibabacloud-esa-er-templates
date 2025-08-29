@@ -1,0 +1,6 @@
+{
+    "name": "astro-template",
+    "assets": {
+      "directory": "./dist"
+    }
+  }
