@@ -1,0 +1,7 @@
+{
+  "name": "svelte-template",
+  "assets": {
+    "directory": "./build",
+    "notFoundStrategy": "404Page"
+  }
+}

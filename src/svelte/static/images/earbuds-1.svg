@@ -1,0 +1,50 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="caseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F9FAFB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E5E7EB;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="earbudGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1F2937;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#111827;stop-opacity:1" />
+    </linearGradient>
+    <filter id="earbudShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="#F8F9FA"/>
+  
+  <!-- Case shadow -->
+  <rect x="120" y="168" width="160" height="80" rx="40" fill="#00000015" filter="url(#earbudShadow)"/>
+  
+  <!-- Case -->
+  <rect x="120" y="160" width="160" height="80" rx="40" fill="url(#caseGrad)" stroke="#D1D5DB" stroke-width="1"/>
+  
+  <!-- Case hinge -->
+  <rect x="190" y="160" width="20" height="80" rx="10" fill="#9CA3AF" opacity="0.6"/>
+  
+  <!-- LED indicator -->
+  <circle cx="200" cy="175" r="3" fill="#10B981"/>
+  
+  <!-- Left earbud -->
+  <ellipse cx="155" cy="200" rx="18" ry="25" fill="url(#earbudGrad)"/>
+  <ellipse cx="155" cy="190" rx="12" ry="8" fill="#374151"/>
+  <circle cx="155" cy="185" r="4" fill="#6B7280"/>
+  <ellipse cx="155" cy="210" rx="8" ry="12" fill="#374151"/>
+  
+  <!-- Right earbud -->
+  <ellipse cx="245" cy="200" rx="18" ry="25" fill="url(#earbudGrad)"/>
+  <ellipse cx="245" cy="190" rx="12" ry="8" fill="#374151"/>
+  <circle cx="245" cy="185" r="4" fill="#6B7280"/>
+  <ellipse cx="245" cy="210" rx="8" ry="12" fill="#374151"/>
+  
+  <!-- Case interior -->
+  <ellipse cx="155" cy="200" rx="22" ry="28" fill="#F3F4F6" opacity="0.8"/>
+  <ellipse cx="245" cy="200" rx="22" ry="28" fill="#F3F4F6" opacity="0.8"/>
+  
+  <!-- Charging contacts -->
+  <circle cx="150" cy="220" r="2" fill="#D4AF37"/>
+  <circle cx="160" cy="220" r="2" fill="#D4AF37"/>
+  <circle cx="240" cy="220" r="2" fill="#D4AF37"/>
+  <circle cx="250" cy="220" r="2" fill="#D4AF37"/>
+</svg>

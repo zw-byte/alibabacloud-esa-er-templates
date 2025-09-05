@@ -1,0 +1,56 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="laptopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#374151;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1F2937;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screenGradLaptop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1F2937;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#111827;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="baseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B7280;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4B5563;stop-opacity:1" />
+    </linearGradient>
+    <filter id="laptopShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="#F8F9FA"/>
+  
+  <!-- Laptop shadow -->
+  <rect x="50" y="148" width="300" height="20" rx="10" fill="#00000020" filter="url(#laptopShadow)"/>
+  
+  <!-- Screen -->
+  <rect x="60" y="120" width="280" height="180" rx="12" fill="url(#laptopGrad)" stroke="#4B5563" stroke-width="1"/>
+  <rect x="70" y="130" width="260" height="160" rx="8" fill="url(#screenGradLaptop)"/>
+  
+  <!-- Screen content -->
+  <rect x="85" y="145" width="230" height="130" rx="6" fill="#3B82F6" opacity="0.8"/>
+  <rect x="95" y="155" width="60" height="40" rx="4" fill="#60A5FA" opacity="0.9"/>
+  <rect x="165" y="155" width="60" height="40" rx="4" fill="#10B981" opacity="0.9"/>
+  <rect x="235" y="155" width="60" height="40" rx="4" fill="#F59E0B" opacity="0.9"/>
+  
+  <!-- Menu bar -->
+  <rect x="85" y="145" width="230" height="20" rx="4" fill="#1E40AF"/>
+  <circle cx="95" cy="155" r="3" fill="#EF4444"/>
+  <circle cx="105" cy="155" r="3" fill="#F59E0B"/>
+  <circle cx="115" cy="155" r="3" fill="#10B981"/>
+  
+  <!-- Desktop icons -->
+  <rect x="95" y="210" width="15" height="15" rx="3" fill="#8B5CF6" opacity="0.8"/>
+  <rect x="115" y="210" width="15" height="15" rx="3" fill="#EC4899" opacity="0.8"/>
+  <rect x="135" y="210" width="15" height="15" rx="3" fill="#06B6D4" opacity="0.8"/>
+  
+  <!-- Taskbar -->
+  <rect x="85" y="255" width="230" height="15" rx="4" fill="#1E40AF" opacity="0.9"/>
+  
+  <!-- Base -->
+  <rect x="50" y="310" width="300" height="20" rx="10" fill="url(#baseGrad)"/>
+  
+  <!-- Trackpad -->
+  <rect x="180" y="315" width="40" height="25" rx="4" fill="#9CA3AF" opacity="0.6"/>
+  
+  <!-- Apple logo equivalent -->
+  <circle cx="200" cy="325" r="3" fill="#4B5563"/>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "name": "nuxt-template",
+  "buildCommand": "npm run preview",
+  "assets": {
+    "directory": "./dist",
+    "notFoundStrategy": "404Page"
+  }
+}

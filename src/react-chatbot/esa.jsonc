@@ -1,0 +1,7 @@
+{
+  "name": "react-chatbot-template",
+  "assets": {
+    "directory": "./dist",
+    "notFoundStrategy": "singlePageApplication"
+  }
+}

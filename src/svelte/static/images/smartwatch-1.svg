@@ -1,0 +1,67 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="watchGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1F2937;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#111827;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="watchScreenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#111827;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B7280;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4B5563;stop-opacity:1" />
+    </linearGradient>
+    <filter id="watchShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="#F8F9FA"/>
+  
+  <!-- Watch shadow -->
+  <rect x="160" y="168" width="80" height="80" rx="20" fill="#00000020" filter="url(#watchShadow)"/>
+  
+  <!-- Watch bands -->
+  <rect x="190" y="100" width="20" height="60" rx="10" fill="url(#bandGrad)"/>
+  <rect x="190" y="240" width="20" height="60" rx="10" fill="url(#bandGrad)"/>
+  
+  <!-- Band segments -->
+  <rect x="192" y="105" width="16" height="8" rx="4" fill="#4B5563"/>
+  <rect x="192" y="118" width="16" height="8" rx="4" fill="#4B5563"/>
+  <rect x="192" y="131" width="16" height="8" rx="4" fill="#4B5563"/>
+  <rect x="192" y="144" width="16" height="8" rx="4" fill="#4B5563"/>
+  
+  <rect x="192" y="248" width="16" height="8" rx="4" fill="#4B5563"/>
+  <rect x="192" y="261" width="16" height="8" rx="4" fill="#4B5563"/>
+  <rect x="192" y="274" width="16" height="8" rx="4" fill="#4B5563"/>
+  <rect x="192" y="287" width="16" height="8" rx="4" fill="#4B5563"/>
+  
+  <!-- Watch case -->
+  <rect x="160" y="160" width="80" height="80" rx="20" fill="url(#watchGrad)" stroke="#374151" stroke-width="1"/>
+  
+  <!-- Digital crown -->
+  <rect x="240" y="185" width="8" height="15" rx="4" fill="#9CA3AF"/>
+  <rect x="242" y="187" width="4" height="11" rx="2" fill="#6B7280"/>
+  
+  <!-- Side button -->
+  <rect x="240" y="205" width="6" height="10" rx="3" fill="#9CA3AF"/>
+  
+  <!-- Screen -->
+  <rect x="170" y="170" width="60" height="60" rx="12" fill="url(#watchScreenGrad)"/>
+  
+  <!-- Watch face content -->
+  <circle cx="200" cy="200" r="25" fill="#3B82F6" opacity="0.8"/>
+  <circle cx="200" cy="200" r="20" fill="#1E40AF" opacity="0.9"/>
+  
+  <!-- Time display -->
+  <rect x="185" y="185" width="30" height="12" rx="2" fill="#60A5FA"/>
+  <rect x="185" y="203" width="30" height="12" rx="2" fill="#60A5FA"/>
+  
+  <!-- Activity rings -->
+  <circle cx="200" cy="200" r="18" stroke="#EF4444" stroke-width="2" fill="none" opacity="0.8" stroke-dasharray="20 40"/>
+  <circle cx="200" cy="200" r="15" stroke="#10B981" stroke-width="2" fill="none" opacity="0.8" stroke-dasharray="30 30"/>
+  <circle cx="200" cy="200" r="12" stroke="#F59E0B" stroke-width="2" fill="none" opacity="0.8" stroke-dasharray="25 35"/>
+  
+  <!-- Center dot -->
+  <circle cx="200" cy="200" r="2" fill="#E5E7EB"/>
+</svg>
