@@ -1,6 +1,7 @@
 {
   "name": "nextjs-template",
   "assets": {
-    "directory": "./out"
+    "directory": "./out",
+    "notFoundStrategy": "404Page"
   }
 }
