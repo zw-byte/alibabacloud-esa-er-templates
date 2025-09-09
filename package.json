@@ -5,7 +5,9 @@
   "keywords": [],
   "private": false,
   "files": [
-    "functions"
+    "functions/*/esa.jsonc",
+    "functions/*/readme.md",
+    "functions/*/src/**"
   ],
   "repository": {
     "type": "git",
