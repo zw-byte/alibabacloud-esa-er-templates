@@ -1,7 +1,7 @@
 {
   "name": "A/B Test",
   "description": "Route traffic to test services of different versions.",
-  "entry": "src/index.js",
+  "entry": "./src/index.js",
   "codeVersions": [],
   "dev": {
     "port": 18080,

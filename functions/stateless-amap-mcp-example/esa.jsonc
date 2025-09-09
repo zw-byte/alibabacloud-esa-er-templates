@@ -1,7 +1,7 @@
 {
   "name": "Stateless AMap MCP Template",
   "description": "Stateless AMap MCP Template",
-  "entry": "src/index.js",
+  "entry": "./src/index.js",
   "codeVersions": [],
   "dev": {
     "port": 18080,

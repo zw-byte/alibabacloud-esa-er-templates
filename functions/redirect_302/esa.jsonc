@@ -1,7 +1,7 @@
 {
   "name": "302 Redirect",
   "description": "Enable a routine to redirect requests from one URL to another. You can customize the redirect response.",
-  "entry": "src/index.js",
+  "entry": "./src/index.js",
   "codeVersions": [],
   "dev": {
     "port": 18080,
