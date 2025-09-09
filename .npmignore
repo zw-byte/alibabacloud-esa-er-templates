@@ -1,0 +1,11 @@
+functions/**/node_modules/
+functions/**/package-lock.json
+functions/**/pnpm-lock.yaml
+functions/**/yarn.lock
+functions/**/.DS_Store
+functions/**/.cache/
+functions/**/dist/
+functions/**/build/
+functions/**/.next/
+functions/**/.nuxt/
+functions/**/.vite/

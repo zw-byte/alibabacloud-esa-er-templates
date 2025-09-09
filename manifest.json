@@ -15,8 +15,8 @@
   },
   {
     "Title_ZH": "鉴权",
-    "Title_EN": "Type A signing",
-    "Desc_ZH": "标准URL鉴权方式A，保护站点资源不被非法盗用。",
+    "Title_EN": "Type signing",
+    "Desc_ZH": "标准URL鉴权方式A、B、C，保护站点资源不被非法盗用。",
     "Desc_EN": "Use URL signing type A to prevent unauthorized access to your website assets.",
     "children": [
       {
